@@ -18,8 +18,8 @@ export default function TicketPreview({
                 <h2 className="text-3xl font-bold mb-2 flex justify-center items-center gap-3">
                     <Receipt size={36} /> PRESUPUESTO DE PROYECTO
                 </h2>
-                <p className="text-slate-600 text-lg">Sergio Martin Garcia - Desarrollo Web</p>
-                <p className="text-slate-500">Contacto: @martiin_garcia_</p>
+                <p className="text-slate-600 text-lg">Sergio Martin Garcia - Desarrollador de Software  </p>
+                <p className="text-slate-500">Contacto: martingarcia.code@gmail.com</p>
             </div>
 
             {/* Client Info Block */}
@@ -109,7 +109,7 @@ export default function TicketPreview({
                 </div>
             </div>
 
-            {/* Observations & Footers */}
+            {/* Observations & Footers
             <div className="mt-16 text-slate-700 text-sm">
                 <h3 className="font-bold text-lg mb-2 text-slate-900">Observaciones:</h3>
                 <ul className="list-disc pl-5 mb-4 space-y-1">
@@ -118,7 +118,7 @@ export default function TicketPreview({
                     <li>No incluye hosting ni dominio (a menos que se acuerde).</li>
                 </ul>
                 <p className="font-medium">Forma de pago: A convenir</p>
-            </div>
+            </div> */}
 
         </div>
     );

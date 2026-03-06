@@ -19,7 +19,7 @@ export default function ClientForm({ clientInfo, onChange }) {
                             name="name"
                             value={clientInfo.name}
                             onChange={onChange}
-                            placeholder="Ej. Esteban Siufi"
+                            placeholder="Ej. nombre del cliente"
                             className="w-full bg-slate-900 border border-slate-700 text-slate-100 rounded-lg py-2.5 pl-10 pr-4 outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 transition-all dark:bg-slate-900 dark:text-slate-100 light:bg-slate-50 light:text-slate-900 light:border-slate-300"
                         />
                     </div>
@@ -33,7 +33,7 @@ export default function ClientForm({ clientInfo, onChange }) {
                             name="company"
                             value={clientInfo.company}
                             onChange={onChange}
-                            placeholder="Ej. Marcelo Chavan"
+                            placeholder="Ej. nombre de la empresa"
                             className="w-full bg-slate-900 border border-slate-700 text-slate-100 rounded-lg py-2.5 pl-10 pr-4 outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 transition-all dark:bg-slate-900 dark:text-slate-100 light:bg-slate-50 light:text-slate-900 light:border-slate-300"
                         />
                     </div>
